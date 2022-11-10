@@ -5,5 +5,5 @@ WORKDIR /app
 
 ENV PORT 8000
 
-CMD pocketbase serve --http=0.0.0.0:8000 --debug
+CMD ./pocketbase serve --http=0.0.0.0:$PORT --debug
 EXPOSE 8000
