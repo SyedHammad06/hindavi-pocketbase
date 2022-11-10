@@ -1,6 +1,4 @@
-
-COPY . /app
-WORKDIR /app
+FROM ubuntu
 
 ENV PORT 8000
 
