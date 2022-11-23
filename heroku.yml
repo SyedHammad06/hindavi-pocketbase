@@ -2,4 +2,3 @@ build:
   docker:
     release:
       dockerfile: Dockerfile
-    web: Dockerfile
