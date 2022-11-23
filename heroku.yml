@@ -1,4 +1,5 @@
 build:
   docker:
-    release:
-      dockerfile: Dockerfile
+    web: Dockerfile
+run:
+  web: ./pocketbase serve
